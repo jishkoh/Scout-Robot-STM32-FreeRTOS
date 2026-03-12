@@ -161,10 +161,13 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
   */
 void BlinkLEDTask(void *argument)
 {
+	TickType_t xLastWakeTime = xTaskGetTickCount();
+	const TickType_t xPeriod = pdMS_TO_TICKS(500);
+
 	for (;;)
 	{
 		HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
-		HAL_Delay(500);
+		vTaskDelayUntil(&xLastWakeTime, xPeriod);
 	}
 }
 
