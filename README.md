@@ -6,7 +6,7 @@ The original scout robot code used bare metal OS in Arduino. However, I wanted t
 2. UART port for steering control and speed reporting.
 3. Quadrature control for robot speed and odometry.
 4. Heartbeat signal using LED to signal firmware health.
-5. SPI interface with nRF24L01 radio control module to communicae with controller. 
+5. SPI interface with nRF24L01 radio control module to communicate with controller. 
 
 The firmware was designed in STM32CubeIDE.
 
