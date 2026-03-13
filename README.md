@@ -10,8 +10,6 @@ The original scout robot code used bare metal OS in Arduino. However, I wanted t
 
 The firmware was designed in STM32CubeIDE.
 
-![scout_robot1](https://github.com/user-attachments/assets/c6a640af-ddbe-41d0-8e55-fe277a67c97f)
-
 ![scout_robot2](https://github.com/user-attachments/assets/de97b1ce-8327-4a87-802d-2496b77735bc)
 
 ![scout_robot3](https://github.com/user-attachments/assets/31a6d153-473f-4bed-8bea-b504828ea80f)
